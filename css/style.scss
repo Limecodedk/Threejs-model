@@ -1,0 +1,23 @@
+body {
+  background-color: #F2E530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background: url(../assets/bg.jpg);
+  background-size: cover;
+
+}
+
+.text {
+  position: absolute;
+  z-index: 99;
+  font-size: 2rem;
+  color: #ffff;
+  text-align: center;
+}
